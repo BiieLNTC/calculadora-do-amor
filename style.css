@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(255, 239, 255);
+}
+
+input {
+    border-color: #7f0099;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px 8px;
+    outline-color: rgb(0, 0, 0);
+    font-family: 'Kanit', sans-serif;
+    caret-color: rgb(127, 0, 153);
+    appearance: textfield;
+}
+
+input::placeholder {
+    color: rgb(127, 0, 153);
+    text-align: center;
+}
+
+.caixa {
+    background-color: rgb(245, 194, 255);
+    padding: 25px 5px;
+    border: 3px solid #7f0099;
+    box-shadow: 5px 5px 16px -6px #00000073;
+    border-radius: 5px;
+}
+
+.caixa form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+button {
+    color: #7f0099;
+    background-color: white;
+    border: 2px solid #7f0099;
+    padding: 5px 12px;
+    border-radius: 5px;
+    margin: 7px 0px 15px 0px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #7f0099;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    color: #7f0099;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+h3 {
+    color: #7f0099;
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+}
+
+#mensagem {
+    display: none;
+    border: 3px solid #7f0099;
+    padding: 15px;
+    width: 100px;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #7f0099;
+    background-color: white;
+    box-shadow: 5px 5px 16px -6px #7f0099;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
